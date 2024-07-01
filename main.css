@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1,h2,h3,p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 1.5vw;
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  
+  
+  nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #333;
+    width: 100%;
+  }
+  
+  
+  .navigation-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .nav-li {
+    float: left;
+  }
+  
+  
+  .nav-li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1vw 1.2vw;
+    text-decoration: none;
+  }
+  
+  
+  .nav-li a:hover {
+    background-color: #111;
+  }
+  
+  
+  .nav-li {
+    border-right: 0.1vw solid #bbb;
+  }
+  
+  
+  #active {
+    background-color: #9e2919;
+  }
+  
+  #h1-01 {
+    padding: 2vw;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 900;
+    color: gray;
+  }
+  
+  .sp-01 {
+    font-size: 5.5vw;
+    font-weight: 900;
+  }
+  
+  .sp-02 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 4.5vw;
+    float: right;
+    margin: 6vw;
+    font-weight: 800;
+    text-align: right;
+   
+  }
+  
+  .footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #2b2b2b;
+    color: white;
+    text-align: left;
+    padding: 1vw;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 1.5vw;
+  }
+  
+  #div-01 {
+    background-size: contain;
+    background-position: center;
+    background-size: 100% 400%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .homepage-float {
+    margin: 4vw;
+    width: 42vw;
+    height: 36vw;
+  }
+  
+  .black-background {
+    background-color: #2c2c2c;
+    margin: 3.5vw;
+  }
+  
+  
+  .gray-background {
+    background-color: #d0d0d0;
+    margin: 3.5vw;
+  }
+  
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .red-button {
+    background-color: #9e2919;
+    border: none;
+    color: white;
+    padding: 0.8vw 1.4vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.4vw;
+    transition-duration: 0.4s;
+  }
+  
+  .red-button:hover {
+    background-color: #9e2919;
+    color: white;
+    font-size: 1.62vw;
+    padding: 0.8vw 1.4vw;
+  }
+  
+  
+  .yellow-button {
+    background-color: #ffc000;
+    border: none;
+    color: black;
+    padding: 0.8vw 1.4vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.4vw;
+    transition-duration: 0.5s;
+  }
+  
+  
+  
+  
+  .yellow-button:hover {
+    background-color: #ffc000;
+    color: black;
+    font-size: 1.62vw;
+    padding: 0.8vw 1.4vw;
+  }
+  
+  .sp-01 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 4.5vw;
+    float: left;
+    margin: 6vw;
+    color: #efeeee;
+    font-weight: 800;
+    text-align: left;
+  }
+  
+  .text {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 2vw;
+    color: black;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    padding-left: 16vw;
+    padding-right: 16vw;
+  }
+  
+  .club-picture {
+    margin-left: 16vw;
+    margin-right: 16vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    width: 68vw;
+    display: block;
+  }
+  
